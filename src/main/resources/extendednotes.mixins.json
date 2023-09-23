@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "committee.nova.extendednotes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "extendednotes.refmap.json",
+  "mixins": [
+    "MixinNoteBlock"
+  ],
+  "client": [
+    "MixinSoundEngine"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
